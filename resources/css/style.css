@@ -151,7 +151,7 @@ main {
 
 }
 
-main section {
+main.section {
     border: 3px solid black;
     width: 75%;
 
@@ -159,7 +159,7 @@ main section {
 
 /* Main Cards */
 
-main section .card {
+main.section .card {
     top: 6%;
     left: 2%;
     position: relative;
@@ -172,7 +172,7 @@ main section .card {
 }
 
 /* Sidebar */
-main aside {
+main.aside {
     display: flex;
     border: 3px solid black;
     width: 25%;
