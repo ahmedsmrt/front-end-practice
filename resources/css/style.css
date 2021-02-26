@@ -191,3 +191,9 @@ main aside {
     height: 84%;
     border-radius: 10px;
 }
+
+#side-bar:hover {
+    transition: .4s;
+    background-color:#F0B27A;
+    opacity: .8;
+}
