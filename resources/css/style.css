@@ -97,7 +97,7 @@ nav ul li a:hover {
 
 #banner {
     height: 100vh;
-    background: url(../../images/banner.jpg);
+    background: url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -121,26 +121,70 @@ nav ul li a:hover {
 }
 
 .button-primary {
+    display: inline-block;
     position: relative;
     padding: .5em;
-    background-color: #145A32;
+    background-color:#9C6F32;
     border-radius: .5rem;
     border: none;
     Font-Family: 'Titillium Web', Sans-Serif;
     font-size: 120%;
     font-weight: 600;
     margin: 1rem;
+    text-decoration: none;
+    color: black;
 }
 
 .button-primary:hover {
-    background-color: #196F3D;
+    transition: .5s;
+    background-color:#e9b16399;
     color:#FDFEFE;
 }
 
 /* Main */
 main {
+    display: flex;
     position: relative;
     width: auto;
     height: 100vh;
     background-color:hsla(145, 39%, 90%, .6);
+
 }
+
+main section {
+    border: 3px solid black;
+    width: 75%;
+
+}
+
+/* Main Cards */
+
+main section .card {
+    top: 6%;
+    left: 2%;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin: 1%;
+}
+
+/* Sidebar */
+main aside {
+    display: flex;
+    border: 3px solid black;
+    width: 25%;
+}
+
+#side-bar {
+    position: relative;
+    top: 7%;
+    left: 14%;
+    border: 3px solid black;
+    width: 75%;
+    height: 84%;
+    border-radius: 10px;
+}
+
