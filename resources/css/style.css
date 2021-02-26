@@ -1,0 +1,146 @@
+/* Universal Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsla(24, 71%, 88%, .6);
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    Font-Family: 'Dosis', Sans-Serif;
+    Font-Size: 48px;
+}
+
+p {
+    Font-Family: 'Titillium Web', Sans-Serif;
+    Font-Size: 16px;
+}
+
+/* Header > Navigation */
+
+header {
+    position: fixed;
+    background-color: hsla(35, 75%, 65%, .7);
+    min-height: 8vh;
+    width: 100%;
+    opacity: .85;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    Font-Family: 'Oxygen', Sans-Serif;
+    font-weight: 600;
+    background-color: #212121;   
+    min-height: 8vh; 
+}
+
+#logo {
+    Font-Family: 'Oxygen', Sans-Serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    color:#A6ACAF;
+    opacity: 1.2;
+}
+
+#logo:hover {
+    color:#BDC3C7 ;
+}
+
+nav ul {
+    display: flex;
+    position: relative;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    opacity: 1.2;
+    float: left;
+    color:#21618C;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color:   #2E86C1;
+}
+
+
+.burger {
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 2px;
+    background-color: #EDCBB1;
+    margin: 5px;
+}
+
+
+/* Banner */
+
+#banner {
+    height: 100vh;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#welcome-wrap {
+    position: relative;
+    background-color: #212121;
+    opacity: .85;
+    height: 13rem;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+#welcome-wrap h1, #welcome-wrap p {
+    color: #FDFEFE;
+    padding: .5rem;
+}
+
+.button-primary {
+    position: relative;
+    padding: .5em;
+    background-color: #145A32;
+    border-radius: .5rem;
+    border: none;
+    Font-Family: 'Titillium Web', Sans-Serif;
+    font-size: 120%;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.button-primary:hover {
+    background-color: #196F3D;
+    color:#FDFEFE;
+}
+
+/* Main */
+main {
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-color:hsla(145, 39%, 90%, .6);
+}
