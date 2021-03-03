@@ -43,6 +43,20 @@ nav {
     min-height: 8vh; 
 }
 
+
+
+.fa-brain {
+    display: inline;
+    font-size: 1.5rem;
+    color: #F37878;
+    margin-right: .5rem;
+}
+
+#logo:hover .fa-brain {
+    transition: .1s;
+    font-size: 1.7rem;
+}
+
 #logo {
     Font-Family: 'Oxygen', Sans-Serif;
     text-transform: capitalize;
@@ -52,8 +66,18 @@ nav {
     opacity: 1.2;
 }
 
+#logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo h4 {
+    display: inline;
+}
+
 #logo:hover {
     color:#BDC3C7 ;
+    cursor: pointer;
 }
 
 nav ul {
@@ -167,6 +191,7 @@ main section .card {
     float: left;
     margin: 1%;
     text-align: center;
+    Font-Family: 'Oxygen', Sans-Serif;
 }
 
 main section .card:hover {
