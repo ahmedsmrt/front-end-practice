@@ -1,16 +1,20 @@
 // JS
 // Testing 
-let cardContTest = document.querySelector('#card-1');
-let cardTitle1 = cardContTest.getElementsByTagName('span');
-const button = document.getElementsByClassName('button-primary')[0];
-const icon = document.getElementById('icon');
-function cardTitleTest() {
-    let input = prompt('What was your name before you realized you were a noob?');
-    cardTitle1[0].innerHTML = `${input}anoob`;
-    console.log(button);
-};
+// let cardContTest = document.querySelector('#card-1');
+// let cardTitle1 = cardContTest.getElementsByTagName('span');
+// const button = document.getElementsByClassName('button-primary')[0];
+// const icon = document.getElementById('icon');
+// function cardTitleTest() {
+//     let input = prompt('What was your name before you realized you were a noob?');
+//     if (input !== null){
+//         cardTitle1[0].innerHTML = `${input}anoob`;
+//     }else {
+//         cardTitle1[0].innerHTML = `Welcome Noobulite`;
+//     }
+//     console.log(button);
+// };
 
-button.addEventListener('click', cardTitleTest);
+// button.addEventListener('click', cardTitleTest);
 
 // Universal Functions
 const randomColor = () => {
