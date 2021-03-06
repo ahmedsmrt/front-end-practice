@@ -445,8 +445,20 @@ main section {
 }
 
 /* Main Cards */
-/* 
-main section .card {
+
+#api-play {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-color:#FEF5E7;
+}
+
+#api-play section {
+    width: 75%;
+}
+
+#api-play section .card {
     top: 6%;
     left: 2%;
     position: relative;
@@ -460,14 +472,14 @@ main section .card {
     Font-Family: 'Oxygen', Sans-Serif;
 }
 
-main section .card:hover {
+#api-play section .card:hover {
     transition: .5s;
     background-color:#D6EAF8;
     opacity: .8;
-} */
+}
 
 /* Sidebar */
-/* main aside {
+#api-play aside {
     display: flex;
     width: 25%;
 }
@@ -486,7 +498,7 @@ main section .card:hover {
     transition: .4s;
     background-color:#F0B27A;
     opacity: .8;
-} */
+} 
 
 /* Api Playground */
 
